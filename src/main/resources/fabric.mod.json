@@ -1,30 +1,31 @@
 {
 	"schemaVersion": 1,
-	"id": "example_mod",
-	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"id": "sprint",
+	"version": "1.0.0",
+	"name": "Sprint",
+	"description": "It's time to run.",
 	"authors": [
-		"Me!"
+		"WorldWidePixel"
 	],
 	"contact": {
-		"homepage": "https://example.com/",
-		"sources": "https://github.com/OrnitheMC/ornithe-template-mod"
+		"homepage": "https://worldwidepixel.ca/",
+		"sources": "https://github.com/worldwidepixel/sprint"
 	},
-	"license": "CC0-1.0",
-	"icon": "assets/example_mod/icon.png",
+	"license": "ARR (contact for redistribution)",
+	"icon": "assets/sprint/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"init": [
-			"com.example.example_mod.ExampleMod"
-		]
+			"ca.worldwidepixel.sprint.Sprint",
+			"ca.worldwidepixel.sprint.event.KeyInputHandler"
+    ]
 	},
 	"mixins": [
-		"example_mod.mixins.json"
+		"sprint.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.14.21",
-		"minecraft": "1.7.2",
+		"minecraft": "1.5.2",
 		"osl-entrypoints": ">=0.4.0"
 	}
 }
