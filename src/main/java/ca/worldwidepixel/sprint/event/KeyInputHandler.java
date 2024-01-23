@@ -25,7 +25,7 @@ public class KeyInputHandler implements ModInitializer {
 		MinecraftClientEvents.TICK_END.register(client -> {
 			if(sprintKey.pressed) {
 				//client.player.sendChat("Sprint.");
-				client.player.increaseXp(500);
+				client.player.setSprinting(true);
 			}
 		});
 	}

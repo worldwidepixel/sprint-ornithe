@@ -20,5 +20,4 @@ public class Sprint implements ModInitializer {
 		LOGGER.info("Sprint is working!");
 	}
 
-
 }

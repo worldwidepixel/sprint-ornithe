@@ -11,7 +11,7 @@
 		"homepage": "https://worldwidepixel.ca/",
 		"sources": "https://github.com/worldwidepixel/sprint"
 	},
-	"license": "ARR (contact for redistribution)",
+	"license": "Apache 2.0",
 	"icon": "assets/sprint/icon.png",
 	"environment": "*",
 	"entrypoints": {
