@@ -7,6 +7,9 @@
 	"authors": [
 		"WorldWidePixel"
 	],
+  "contributors": [
+		"Blurryface"
+  ]
 	"contact": {
 		"homepage": "https://worldwidepixel.ca/",
 		"sources": "https://github.com/worldwidepixel/sprint"

@@ -14,6 +14,6 @@ public class TitleScreenMixin {
 
 	@Inject(method = "init", at = @At("TAIL"))
 	public void sprint$onInit(CallbackInfo ci) {
-		//Sprint.LOGGER.info("This line is printed by an example mod mixin!");
+		Sprint.LOGGER.info("Run, Forrest, run! (Sprint)");
 	}
 }
