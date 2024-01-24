@@ -1,4 +1,4 @@
-package ca.worldwidepixel.sprint.event;
+package org.loopmc.sprint.event;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.options.KeyBinding;
@@ -24,7 +24,6 @@ public class KeyInputHandler implements ModInitializer {
 		});
 		MinecraftClientEvents.TICK_END.register(client -> {
 			if(sprintKey.pressed) {
-				//client.player.sendChat("Sprint.");
 				client.player.setSprinting(true);
 			}
 		});
