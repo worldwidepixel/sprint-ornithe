@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "sprint",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"name": "Sprint",
 	"description": "It's time to run.",
 	"authors": [
@@ -9,7 +9,7 @@
 	],
   "contributors": [
 		"Blurryface"
-  ]
+  ],
 	"contact": {
 		"homepage": "https://worldwidepixel.ca/",
 		"sources": "https://github.com/worldwidepixel/sprint"
