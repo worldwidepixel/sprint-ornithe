@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "sprint",
-	"version": "1.0.0-1.6.4",
+	"version": "1.0.4",
 	"name": "Sprint",
 	"description": "It's time to run.",
 	"authors": [
@@ -28,7 +28,7 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.14.21",
-		"minecraft": ">=1.3",
+		"minecraft": ">=1.3.2 <=1.6.4",
 		"osl-entrypoints": ">=0.4.0"
 	}
 }
